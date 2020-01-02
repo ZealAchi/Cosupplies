@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "build": "netlify-lambda build server"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,8 @@
     "graphql-resolvers": "^0.3.3",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.8.3",
+    "netlify-lambda": "^1.6.3",
+    "serverless-http": "^2.3.0",
     "uuid": "^3.3.3"
   }
 }
