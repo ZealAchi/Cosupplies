@@ -5,9 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "start:lambda": "netlify-lambda serve server.js",
     "dev": "nodemon server.js",
-    "build:lambda": "netlify-lambda build server.js"
+    
   },
   "keywords": [],
   "author": "",
